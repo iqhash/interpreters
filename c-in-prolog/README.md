@@ -41,7 +41,7 @@ NOTE: You need to have empty spaces between tokens (b := a + 1 ) in order for th
 
 #Supported statements
 
-1. IO
+1. IO  
 //read variableName  
 read a  
 
@@ -49,19 +49,19 @@ read a
 write a  
 write a + 1 – 2  
 
-2. Assign
+2. Assign  
 //default assign(default value 0)  
 a  
 //the kind of assign you do everyday  
 a := 1  
 
-3. evaluation
+3. evaluation  
 //plus minus (you can add some more if you want)  
 a := 1  
 a := 1 + 2 – 3  
 a := b + 1  
 
-4. if statement
+4. if statement  
 if  
 a < 10  
 begin  
@@ -71,7 +71,7 @@ statement2
 end  
 
 
-5. while statement
+5. while statement  
 while  
 a < 10  
 begin  
@@ -80,7 +80,7 @@ statement2
 ...  
 end  
 
-6. Supported comparison operators
+6. Supported comparison operators  
 equal: :=  
 not_equal: \=  
 greater: >  

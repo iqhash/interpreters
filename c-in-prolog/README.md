@@ -1,17 +1,20 @@
+Simple C like language interpreter in Prolog
+============================================
+
 #How to use
 1. Open command line —> cd go to the containing directory —> run prolog
 
 2. Compile tokenizer & interpreter
-Type in: [interpreter]. —> hit enter.
-example:
-?- [interpreter].
-% interpreter compiled 0.01 sec, 17,292 bytes
-true.
+Type in: [interpreter]. —> hit enter.  
+example:  
+?- [interpreter].  
+% interpreter compiled 0.01 sec, 17,292 bytes  
+true.  
 
-?- [tokenizer].
-% tokenizer compiled 0.00 sec, 3,200 bytes
-true.
-NOTE: if you use sicstus, you need to change “read_line_to_codes” to “read_line” inside tokenizer.
+?- [tokenizer].  
+% tokenizer compiled 0.00 sec, 3,200 bytes  
+true.  
+NOTE: if you use sicstus, you need to change “read_line_to_codes” to “read_line” inside tokenizer.  
 
 
 3. run('test.txt',ParseTree,VariablesOut).

@@ -1,8 +1,3 @@
-interpreter
-===========
-
-simple interpreters in minor programming languages, just for fun
-
 #How to use
 1. Open command line —> cd go to the containing directory —> run prolog
 
@@ -21,7 +16,7 @@ NOTE: if you use sicstus, you need to change “read_line_to_codes” to “read
 
 3. run('test.txt',ParseTree,VariablesOut).
 % this executes the content inside “test.txt”
-|:  
+|:
 % this input will show up (result of “read a”). you can for example type in “10.”, hit enter.
 % NOTE: ALL PROLOG QUERIES MUST END WITH A FULL STOP “.”
 % and you will get this output:
@@ -38,7 +33,7 @@ NOTE: if you use sicstus, you need to change “read_line_to_codes” to “read
 ParseTree = [read(a), while(condition(a, greater, 5), [write(a), op_assign(a, cal(a, minus, 1))]), def_assign(a), op_assign(b, cal(a, plus, 1)), op_assign(c, cal(b, plus, 1)), if(condition(a, not_equal, 0), [op_assign(a, cal(..., ..., ...)), op_assign(..., ...)|...]), write(cal(cal(..., ..., ...), minus, 1)), write(a), write(...)|...],
 VariablesOut = [ (a, 0), (b, 1), (c, 2)] .
 
-That’s it. 
+That’s it.
 
 #test.txt
 You can type in your own logic and test it out. Have fun.
@@ -63,13 +58,13 @@ a := 1
 3. evaluation
 //plus minus (you can add some more if you want)
 a := 1
-a := 1 + 2 – 3 
+a := 1 + 2 – 3
 a := b + 1
 
 4. if statement
-if 
-a < 10 
-begin 
+if
+a < 10
+begin
 statement1
 statement2
 ...
@@ -89,6 +84,6 @@ end
 equal: :=
 not_equal: \=
 greater: >
-less: < 
-greater_equal: >= 
+less: <
+greater_equal: >=
 less_equal: =<

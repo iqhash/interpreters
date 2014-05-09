@@ -44,7 +44,6 @@ NOTE: You need to have empty spaces between tokens (b := a + 1 ) in order for th
 1. IO  
 //read variableName  
 read a  
-
 //write variable | evaluation  
 write a  
 write a + 1 – 2  

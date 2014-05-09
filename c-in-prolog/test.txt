@@ -1,0 +1,28 @@
+begin 
+
+read a 
+
+while a > 5 
+begin 
+write a 
+a := a - 1 
+end 
+
+a 
+b := a + 1 
+c := b + 1 
+
+if a \= 0 
+begin 
+a := a + 1 
+b := b + 1 
+c := c + 1 
+end 
+
+write a + b + c + 100000001 - 1 
+
+write a 
+write b 
+write c 
+
+end

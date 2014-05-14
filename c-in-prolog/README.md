@@ -1,7 +1,7 @@
 Simple C like language interpreter in Prolog
 ============================================
 
-#How to use
+##How to use
 1. Open command line —> cd go to the containing directory —> run prolog
 
 2. Compile tokenizer & interpreter
@@ -35,11 +35,11 @@ VariablesOut = [ (a, 0), (b, 1), (c, 2)] .
 
 That’s it.  
 
-#test.txt
+##test.txt
 You can type in your own logic and test it out. Have fun.  
 NOTE: You need to have empty spaces between tokens (b := a + 1 ) in order for the tokenizer to work.  
 
-#Supported statements
+##Supported statements
 
 1. IO  
 //read variableName  

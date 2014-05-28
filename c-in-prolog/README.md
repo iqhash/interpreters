@@ -36,6 +36,34 @@ VariablesOut = [ (a, 0), (b, 1), (c, 2)] .
 That’s it.  
 
 ##test.txt
+begin  
+  
+read a  
+  
+while a > 5  
+begin  
+write a  
+a := a - 1  
+end  
+  
+a  
+b := a + 1  
+c := b + 1  
+  
+if a \= 0 
+begin  
+a := a + 1  
+b := b + 1  
+c := c + 1  
+end  
+  
+write a + b + c + 100000001 - 1  
+  
+write a  
+write b  
+write c  
+  
+end  
 You can type in your own logic and test it out. Have fun.  
 NOTE: You need to have empty spaces between tokens (b := a + 1 ) in order for the tokenizer to work.  
 

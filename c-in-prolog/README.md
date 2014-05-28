@@ -64,7 +64,7 @@ write b
 write c  
   
 end  
-You can type in your own logic and test it out. Have fun.  
+You can type in your own logic and test it out. 
 NOTE: You need to have empty spaces between tokens (b := a + 1 ) in order for the tokenizer to work.  
 
 ##Supported statements
